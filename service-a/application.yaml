@@ -1,12 +1,2 @@
-spring:
-  application:
-    name: servicea
-  config:
-    import: "optional:configserver:"
-  cloud:
-    config: 
-      uri: http://localhost:8888/
-      name: service-a
-      enable: false
-  profiles:
-    active: dev
+service:
+ name: test service A
