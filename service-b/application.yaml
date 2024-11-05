@@ -6,7 +6,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/DaveLee-b/gachon-config-repo.git
+          uri: https://github.com/DaveLee-b/gachon-config-repo.gi
           search-paths: '{application}'
 
 
