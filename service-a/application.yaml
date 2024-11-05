@@ -1,12 +1,12 @@
 spring:
   application:
-    name: serviceb
+    name: servicea
   config:
     import: "optional:configserver:"
   cloud:
     config: 
       uri: http://localhost:8888/
-      name: service-b
+      name: service-a
       enable: false
   profiles:
     active: dev
